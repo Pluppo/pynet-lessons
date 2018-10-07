@@ -12,4 +12,8 @@ R1 = {
 
 net_conn = Netmiko(**R1)
 
-print(net_conn.find_prompt())
+output = net_conn.send_command("show ip int brief")
+print(output)
+
+output = net_conn.send_command("show ip arp")
+print(output)

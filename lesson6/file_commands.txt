@@ -1,0 +1,2 @@
+ntp server 192.168.0.1 prefer
+ntp server 129.240.2.6
