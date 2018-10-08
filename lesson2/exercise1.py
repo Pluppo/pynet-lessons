@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/env python3.6
 
 from __future__ import division, print_function, unicode_literals
 import readline
